@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Web HTML Saja</title>
+</head>
+<!-- 
+  Atribut seperti 'bgcolor' dan 'text' ini sudah usang dan tidak direkomendasikan 
+  dalam pengembangan web modern. CSS adalah cara yang benar untuk styling.
+  Namun, untuk demo "HTML-only", kita akan menggunakannya.
+-->
+<body bgcolor="#F0F8FF" text="#333333">
+
+    <!-- Menggunakan tabel untuk layout adalah teknik lama, sebelum ada CSS Flexbox atau Grid -->
+    <table align="center" width="80%" cellpadding="15">
+        <tr>
+            <td>
+                <!-- Header Halaman -->
+                <header>
+                    <h1 align="center">Selamat Datang di Halaman Web Saya!</h1>
+                    <p align="center">
+                        <i>Dibuat Sepenuhnya dengan HTML Murni</i>
+                    </p>
+                    <hr>
+                </header>
+
+                <!-- Konten Utama -->
+                <main>
+                    <h2>Tentang Saya</h2>
+                    <p>
+                        Ini adalah contoh halaman web yang hanya menggunakan HTML untuk struktur dan konten. Seperti yang Anda lihat, kemungkinannya terbatas, tetapi ini menunjukkan kekuatan dasar dari HTML. Kita bisa membuat judul, paragraf, daftar, dan bahkan menampilkan gambar.
+                    </p>
+
+                    <p>
+                        Beberapa hal yang bisa saya lakukan dengan HTML:
+                    </p>
+                    <ul>
+                        <li>Membuat daftar tidak berurutan seperti ini.</li>
+                        <li>Membuat <b>teks tebal</b> dan <i>teks miring</i>.</li>
+                        <li>Menambahkan tautan ke situs lain, misalnya ke <a href="https://www.yandex.com" target="_blank">serach engine</a>.</li>
+                    </ul>
+
+                    <!-- Menampilkan Gambar -->
+                    <h3 align="center">Galeri Sederhana</h3>
+                    <p align="center">
+                        <img 
+                            src="https://placehold.co/600x400/3a4452/ffffff?text=Ini+Gambar+Contoh" 
+                            alt="Gambar placeholder" 
+                            width="600" 
+                            height="400"
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400/cccccc/333333?text=Gagal+Memuat+Gambar';"
+                        >
+                        <br>
+                        <small>Ini adalah gambar yang ditampilkan menggunakan tag &lt;img&gt;.</small>
+                    </p>
+
+                    <hr>
+
+                    <!-- Menampilkan Tabel Data -->
+                    <h3>Jadwal Harian Saya</h3>
+                    <p>HTML juga sangat baik untuk menampilkan data dalam bentuk tabel:</p>
+                    <table border="1" cellpadding="5" cellspacing="0" width="100%">
+                        <thead>
+                            <tr bgcolor="#D3D3D3">
+                                <th>Waktu</th>
+                                <th>Aktivitas</th>
+                                <th>Prioritas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>08:00 - 09:00</td>
+                                <td>Sarapan dan Membaca Berita</td>
+                                <td>Tinggi</td>
+                            </tr>
+                            <tr>
+                                <td>09:00 - 12:00</td>
+                                <td>Bekerja / Belajar</td>
+                                <td>Sangat Tinggi</td>
+                            </tr>
+                            <tr>
+                                <td>12:00 - 13:00</td>
+                                <td>Makan Siang</td>
+                                <td>Tinggi</td>
+                            </tr>
+                            <tr>
+                                <td>13:00 - 17:00</td>
+                                <td>Lanjut Bekerja / Belajar</td>
+                                <td>Sangat Tinggi</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </main>
+
+                <!-- Footer Halaman -->
+                <footer>
+                    <hr>
+                    <p align="center">
+                        <small>&copy; 2025 - created by marco</small>
+                    </p>
+                </footer>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
